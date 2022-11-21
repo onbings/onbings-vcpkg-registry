@@ -1,0 +1,48 @@
+{
+  "name": "bofstd",
+  "version": "5.1.16.29",
+  "description": "General Purpose C++ Multiplatform library",
+  "homepage": "https://github.com/onbings/bofstd",
+  "dependencies": [
+    {
+      "name": "czmq"
+    },
+    {
+      "name": "date"
+    },
+    {
+      "name": "fmt"
+    },
+    {
+      "name": "gtest"
+    },
+    {
+      "name": "jsoncpp"
+    },
+    {
+      "name": "libmediainfo"
+    },
+    {
+      "name": "libyuv"
+    },
+    {
+      "name": "libzen"
+    },
+    {
+      "name": "linenoise-ng"
+    },
+    {
+      "name": "openssl"
+    },
+    {
+      "name": "spdlog"
+    },
+    {
+      "name": "zeromq"
+    },
+    {
+      "name": "zlib"
+    }
+  ],
+  "port-version": 0
+}
