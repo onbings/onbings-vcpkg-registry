@@ -3,6 +3,10 @@
     "bofstd": {
       "baseline": "5.1.16.66",
       "port-version": 0
-    }
+    },
+    "bof2d": {
+      "baseline": "1.1.1.6",
+      "port-version": 0
+    }	
   }
 }
