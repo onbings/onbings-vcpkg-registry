@@ -6,7 +6,8 @@
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO onbings/bof2d
-  SKIP_SHA512
+  REF 406a6fd8084fe6301831ae2b39845db6ecc0ff63
+  SHA512 0
   HEAD_REF main
 )
 
