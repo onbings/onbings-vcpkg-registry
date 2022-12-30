@@ -1,0 +1,18 @@
+{
+  "name": "lvgl",
+  "version": "2.0.1.7",
+  "description": "The most popular free and open-source embedded graphics library to create beautiful UIs for any MCU, MPU and display type",
+  "homepage": "https://github.com/onbings/lvgl",
+  "dependencies": [
+    {
+      "name": "gtest"
+    },
+    {
+      "name": "bofstd"
+    },
+    {
+      "name": "bof2d"
+    }
+  ],
+  "port-version": 0
+}
