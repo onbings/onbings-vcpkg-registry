@@ -4,7 +4,7 @@
  
 ## Vcpkg configuration
  
-Add ``bof2d`` to
+Add ``lvgl`` to
  
 - `vcpkg.json`
 - `vcpkg-configuration.json`
@@ -15,8 +15,8 @@ Add the following lines to your CMakeLists.txt
  
 ```cmake
 # Find the package
-find_package(bof2d REQUIRED)
+find_package(lvgl REQUIRED)
  
 # Link with the library
-target_link_library(YOUR_TARGET PRIVATE EVS (???) ::bof2d)
+target_link_library(YOUR_TARGET PRIVATE EVS (???) ::lvgl)
 ```

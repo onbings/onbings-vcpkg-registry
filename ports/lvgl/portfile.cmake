@@ -6,8 +6,8 @@
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO onbings/lvgl
-  REF d543497f7b062b158f3c6446745d5df139339b49
-  SHA512 d274b2fefcf2fbad3e0be4e19d4db28b9f627dc3e269fbcfede8a5a8c8d4d83dce6c87fe831feb0bb0f50b12f65dec2a3514640c9c37b7d8361399d9f53020da
+  REF 114878766e53e7e456b84a94506ad4ac04f173c9
+  SHA512 fc1e46606c9d4654c66c03849c6e27da9354961808f027449a7f73c67a81c46a2950f994ee83dce2d2b94232df83324df78f45e7799ed2957e360332a5063df6
   HEAD_REF main
 )
 
@@ -16,10 +16,10 @@ vcpkg_configure_cmake(
   SOURCE_PATH "${SOURCE_PATH}"
   PREFER_NINJA
         OPTIONS
-          -Dbof2d_BUILD_TESTS=OFF
-          -Dbof2d_BUILD_TOOLS=OFF
-          -Dbof2d_BUILD_EXAMPLES=OFF  
-		  -Dbof2d_GENERATE_HELP=OFF		  
+          -Dlvgl_BUILD_TESTS=OFF
+          -Dlvgl_BUILD_TOOLS=OFF
+          -Dlvgl_BUILD_EXAMPLES=OFF  
+		  -Dlvgl_GENERATE_HELP=OFF		  
 )
 
 # CMake install
@@ -28,6 +28,7 @@ vcpkg_install_cmake()
 # Fix installation path according to vcpkg conventions
 vcpkg_fixup_cmake_targets(CONFIG_PATH share TARGET_PATH "share/bof2d")
 vcpkg_copy_pdbs()
+message("===========CURRENT_PACKAGES_DIR==================>" ${CURRENT_PACKAGES_DIR})
 
 # Remove useless directories
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
