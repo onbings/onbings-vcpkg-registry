@@ -1,6 +1,6 @@
 {
   "name": "bofstd",
-  "version": "5.2.3.14",
+  "version": "5.3.0.1",
   "description": "General Purpose C++ Multiplatform library",
   "homepage": "https://github.com/onbings/bofstd",
   "dependencies": [
@@ -23,5 +23,5 @@
       "name": "spdlog"
     }
   ],
-  "port-version": 1
+  "port-version": 0
 }

@@ -1,8 +1,8 @@
 {
   "default": {
     "bofstd": {
-      "baseline": "5.2.3.14",
-      "port-version": 1
+      "baseline": "5.3.0.1",
+      "port-version": 0
     },
     "bof2d": {
       "baseline": "4.1.1.11",
