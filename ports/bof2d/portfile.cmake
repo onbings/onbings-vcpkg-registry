@@ -4,13 +4,13 @@
 #     Actual hash : [ 67cb71f5f324aa7249d33b58d3dbeef62abe68bcd59c1404959e672217e3ef806a8cd0e71d2b69d91a7927f7ff984c930a23697d592643f749745c645d0bc71e ]
 
 #https://github.com/microsoft/vcpkg/pull/16613
-set(VCPKG_USE_HEAD_VERSION ON)
+#set(VCPKG_USE_HEAD_VERSION ON)
 
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO onbings/bof2d
-  #REF f39f09a5457e3dab105b645d3664ad3e83f010d2
-  #SHA512 0
+  REF 001fc7fbecdba822370c1303fba64a39f2bf6999
+  SHA512 85ca5ab6e90279c92825d18074f8c882c62bea67acd370655d32bd92a13e7b960e310f7f5392c161575b9cd8440af8c9e2987c7456762550765fc3f2272bfc4c
   HEAD_REF main
 )
 
@@ -19,10 +19,10 @@ vcpkg_configure_cmake(
   SOURCE_PATH "${SOURCE_PATH}"
   PREFER_NINJA
         OPTIONS
-          -Dbof2d_BUILD_TESTS=OFF
-          -Dbof2d_BUILD_TOOLS=OFF
-          -Dbof2d_BUILD_EXAMPLES=OFF  
-		  -Dbof2d_GENERATE_HELP=OFF		  
+          -DBOF2D_BUILD_TESTS=OFF
+          -DBOF2D_BUILD_TOOLS=OFF
+          -DBOF2D_BUILD_EXAMPLES=OFF  
+		  -DBOF2D_GENERATE_HELP=OFF		  
 )
 
 # CMake install
