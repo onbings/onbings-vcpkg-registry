@@ -22,5 +22,6 @@
     {
       "name": "spdlog"
     }
-  ]
+  ],
+  "port-version": 0
 }
