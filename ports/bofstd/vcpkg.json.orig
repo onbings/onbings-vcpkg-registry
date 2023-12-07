@@ -1,0 +1,55 @@
+<<<<<<< HEAD
+{
+  "name": "bofstd",
+  "version": "5.3.4.7",
+  "description": "The onbings general purpose C++ Multiplatform library",
+  "dependencies": [
+    {
+      "name": "date"
+    },
+    {
+      "name": "fmt"
+    },
+    {
+      "name": "gtest"
+    },
+    {
+      "name": "jsoncpp"
+    },
+    {
+      "name": "linenoise-ng"
+    },
+    {
+      "name": "spdlog"
+    }
+  ],
+  "port-version": 0
+=======
+{
+  "name": "bofstd",
+  "version": "4.4.2.1",
+  "description": "General Purpose C++ Multiplatform library",
+  "homepage": "https://github.com/onbings/bofstd",
+  "dependencies": [
+    {
+      "name": "date"
+    },
+    {
+      "name": "fmt"
+    },
+    {
+      "name": "gtest"
+    },
+    {
+      "name": "jsoncpp"
+    },
+    {
+      "name": "linenoise-ng"
+    },
+    {
+      "name": "spdlog"
+    }
+  ],
+  "port-version": 1
+>>>>>>> 33e7aa262c7c8668ce4e743802af18363ca4845b
+}
