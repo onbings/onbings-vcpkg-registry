@@ -10,17 +10,11 @@
       "name": "fmt"
     },
     {
-      "name": "gtest"
-    },
-    {
       "name": "jsoncpp"
     },
     {
       "name": "linenoise-ng"
-    },
-    {
-      "name": "spdlog"
     }
   ],
-  "port-version": 0
+  "port-version": 1
 }
