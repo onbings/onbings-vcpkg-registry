@@ -9,8 +9,8 @@
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO onbings/bofstd
-  REF a35fb07136cd9c44e36cddd0ab8e12a48977aa48
-  SHA512 795ad7fe4899d9193941cc716c66ca193d1f25f3745e3f65f76d3923643d4e781fb2dbbcb83e0220846595b9b52e6f42d233b6ef054f5efcad355c2845ad23ce
+  REF 41bb774a98bad905502c590bd0b05295bc8cdc95
+  SHA512 8a98f9549a7c9812a73931eafa73e6c8b27ab770dfa1659a5bc72efd9af9c9f53e345d3a15b30139cf835bd27f42888c7449e35cbfcf9d180ea23d15b08376a0
   HEAD_REF main
 )
 
@@ -40,8 +40,3 @@ file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 # Make sure there is a copyright file
 file(WRITE ${CURRENT_PACKAGES_DIR}/share/bofstd/copyright "")
 #file(INSTALL "${SOURCE_PATH}/LICENSE" DESTINATION "${CURRENT_PACKAGES_DIR}/share/bofstd" RENAME copyright)
-
-if (EMSCRIPTEN)
-message("Force pthread detection for BofStd compilation under EMSCRIPTEN")
-set (THREADS_HAVE_PTHREAD_ARG ON)
-endif()
