@@ -1,0 +1,21 @@
+{
+  "name": "bofdearimgui",
+  "version": "2.1.0.3",
+  "description": "The onbings dearimgui component",
+  "dependencies": [
+    {
+      "name": "bofstd"
+    },
+    {
+      "name": "hello-imgui",
+      "features": [ "opengl3-binding", "sdl2-binding" ]
+    },
+    {
+      "name": "implot"
+    },
+    {
+      "name": "sdl2"
+    }
+  ],
+  "port-version": 0
+}
