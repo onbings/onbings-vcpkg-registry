@@ -8,7 +8,10 @@
     },
     {
       "name": "hello-imgui",
-      "features": [ "opengl3-binding", "sdl2-binding" ]
+      "features": [
+        "opengl3-binding",
+        "sdl2-binding"
+      ]
     },
     {
       "name": "implot"

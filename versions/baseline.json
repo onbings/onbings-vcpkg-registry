@@ -7,6 +7,10 @@
     "bof2d": {
       "baseline": "4.4.2.2",
       "port-version": 0
+    },
+    "bofdearimgui": {
+      "baseline": "2.1.0.3",
+      "port-version": 0
     }
   }
 }
