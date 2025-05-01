@@ -1,24 +1,26 @@
 {
   "name": "bofdearimgui",
   "version": "2.1.0.3",
-  "description": "The onbings dearimgui component",
+  "description": "The OnBings DearImGui c++ wrapper library",
   "dependencies": [
     {
       "name": "bofstd"
     },
     {
-      "name": "hello-imgui",
+      "name": "hello-imgui"
+    },
+    {
+      "name": "imgui",
       "features": [
-        "opengl3-binding",
-        "sdl2-binding"
+        "opengl3-binding"
       ]
     },
     {
-      "name": "implot"
+      "name": "sdl2"
     },
     {
-      "name": "sdl2"
+      "name": "implot"
     }
   ],
-  "port-version": 2
+  "port-version": 3
 }
