@@ -1,6 +1,6 @@
 {
   "name": "bofwebrpc",
-  "version": "2.4.1.2",
+  "version": "2.4.2.2",
   "description": "The onbings bofwebrpc component",
   "dependencies": [
     {
@@ -32,6 +32,10 @@
     {
       "name": "grpc",
       "platform": "!wasm32"
+    },
+    {
+      "name": "zstd",
+      "platform": "!windows"
     }
   ],
   "port-version": 0
