@@ -9,8 +9,8 @@
       "port-version": 0
     },
     "bofdearimgui": {
-      "baseline": "2.1.0.3",
-      "port-version": 4
+      "baseline": "2.2.1.5",
+      "port-version": 0
     },
     "bofwebrpc": {
       "baseline": "2.4.2.2",
