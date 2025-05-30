@@ -1,6 +1,6 @@
 {
   "name": "bofdearimgui",
-  "version": "2.2.1.7",
+  "version": "2.2.1.8",
   "description": "The OnBings DearImGui c++ wrapper library",
   "dependencies": [
     {
