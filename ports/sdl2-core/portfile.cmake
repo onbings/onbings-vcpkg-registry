@@ -9,6 +9,7 @@ vcpkg_from_github(
         alsa-dep-fix.patch
         cxx-linkage-pkgconfig.diff
 )
+ message(STATUS "===========>DEBUG: BHA =================================== " ${VCPKG_TARGET_IS_WINDOWS})
 
 string(COMPARE EQUAL "${VCPKG_LIBRARY_LINKAGE}" "static" SDL_STATIC)
 string(COMPARE EQUAL "${VCPKG_LIBRARY_LINKAGE}" "dynamic" SDL_SHARED)
@@ -77,6 +78,10 @@ if(NOT BINS)
     )
 endif()
 
+ message(STATUS "===========>DEBUG: VCPKG_TARGET_IS_WINDOWS " ${VCPKG_TARGET_IS_WINDOWS})
+ message(STATUS "===========>DEBUG: VCPKG_TARGET_IS_UWP " ${VCPKG_TARGET_IS_UWP})
+ message(STATUS "===========>DEBUG: VCPKG_TARGET_IS_MINGW " ${VCPKG_TARGET_IS_MINGW})
+
 if(VCPKG_TARGET_IS_WINDOWS AND NOT VCPKG_TARGET_IS_UWP AND NOT VCPKG_TARGET_IS_MINGW)
     if(NOT DEFINED VCPKG_BUILD_TYPE OR VCPKG_BUILD_TYPE STREQUAL "release")
         file(MAKE_DIRECTORY "${CURRENT_PACKAGES_DIR}/lib/manual-link")
@@ -88,7 +93,7 @@ if(VCPKG_TARGET_IS_WINDOWS AND NOT VCPKG_TARGET_IS_UWP AND NOT VCPKG_TARGET_IS_M
     endif()
 
     file(GLOB SHARE_FILES "${CURRENT_PACKAGES_DIR}/share/sdl2/*.cmake")
-    message(STATUS "DEBUG: Share files found: ${SHARE_FILES}") # Debug 1: List found files
+    message(STATUS "DEBUG: ShareC:\Users\<YourUser>\AppData\Local\vcpkg\archives\ files found: ${SHARE_FILES}") # Debug 1: List found files
 
     foreach(SHARE_FILE ${SHARE_FILES})
         message(STATUS "DEBUG: Processing share file: ${SHARE_FILE}") # Debug 2: Which file is being processed
