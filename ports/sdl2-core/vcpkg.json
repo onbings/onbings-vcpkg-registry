@@ -14,6 +14,24 @@
       "host": true
     }
   ],
+  "default-features": [
+    {
+      "name": "dbus",
+      "platform": "linux"
+    },
+    {
+      "name": "ibus",
+      "platform": "linux"
+    },
+    {
+      "name": "wayland",
+      "platform": "linux"
+    },
+    {
+      "name": "x11",
+      "platform": "linux"
+    }
+  ],  
   "features": {
     "alsa": {
       "description": "Support for alsa audio",
