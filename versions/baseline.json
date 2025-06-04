@@ -1,20 +1,28 @@
 {
   "default": {
-    "bofstd": {
-      "baseline": "6.1.2.7",
-      "port-version": 0
-    },
     "bof2d": {
       "baseline": "4.4.2.2",
+      "port-version": 0
+    },
+    "bofdearimgui": {
+      "baseline": "2.2.1.10",
+      "port-version": 0
+    },
+    "bofstd": {
+      "baseline": "6.1.2.7",
       "port-version": 0
     },
     "bofwebrpc": {
       "baseline": "2.4.2.3",
       "port-version": 0
-    },	
-    "bofdearimgui": {
-      "baseline": "2.2.1.10",
-      "port-version": 3
+    },
+    "linenoise-ng": {
+      "baseline": "1.0.1",
+      "port-version": 0
+    },
+    "lvgl": {
+      "baseline": "2.0.1.7",
+      "port-version": 0
     },
     "sdl2-core": {
       "baseline": "2.32.4",

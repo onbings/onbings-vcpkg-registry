@@ -3,46 +3,21 @@
   "version": "4.4.2.2",
   "description": "The onbings 2d C++ Multiplatform library",
   "dependencies": [
-    {
-      "name": "bofstd"
-    },
-    {
-      "name": "ffmpeg"
-    },
-    {
-      "name": "freetype"
-    },
-    {
-      "name": "glad"
-    },
+    "bofstd",
+    "ffmpeg",
+    "freetype",
+    "glad",
     {
       "name": "glfw3",
       "platform": "windows"
     },
-    {
-      "name": "glm"
-    },
-    {
-      "name": "gtest"
-    },
-    {
-      "name": "libmediainfo"
-    },
-    {
-      "name": "libyuv"
-    },
-    {
-      "name": "openssl"
-    },
-    {
-      "name": "sdl2"
-    },
-    {
-      "name": "stb"
-    },
-    {
-      "name": "zlib"
-    }
-  ],
-  "port-version": 0
+    "glm",
+    "gtest",
+    "libmediainfo",
+    "libyuv",
+    "openssl",
+    "sdl2",
+    "stb",
+    "zlib"
+  ]
 }

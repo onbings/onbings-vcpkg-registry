@@ -3,11 +3,17 @@
   "version": "2.4.2.3",
   "description": "The onbings bofwebrpc component",
   "dependencies": [
+    "bofstd",
     {
-      "name": "bofstd"
+      "name": "cpp-httplib",
+      "features": [
+        "brotli",
+        "openssl",
+        "zlib"
+      ]
     },
     {
-      "name": "libwebsockets",
+      "name": "grpc",
       "platform": "!wasm32"
     },
     {
@@ -15,28 +21,17 @@
       "platform": "!wasm32"
     },
     {
-      "name": "nlohmann-json"
-    },
-    {
-      "name": "cpp-httplib",
-      "features": [
-        "brotli",
-        "zlib",
-        "openssl"
-      ]
-    },
-    {
-      "name": "protobuf",
+      "name": "libwebsockets",
       "platform": "!wasm32"
     },
+    "nlohmann-json",
     {
-      "name": "grpc",
+      "name": "protobuf",
       "platform": "!wasm32"
     },
     {
       "name": "zstd",
       "platform": "!windows"
     }
-  ],
-  "port-version": 0
+  ]
 }

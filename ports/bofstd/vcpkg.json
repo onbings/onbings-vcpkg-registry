@@ -1,7 +1,5 @@
 {
   "name": "bofstd",
   "version": "6.1.2.7",
-  "description": "The onbings general purpose C++ Multiplatform library",
-  "dependencies": [],
-  "port-version": 0
+  "description": "The onbings general purpose C++ Multiplatform library"
 }
