@@ -18,7 +18,8 @@
     "alsa": {
       "description": "Support for alsa audio",
       "dependencies": [
-        "alsa"
+        "name":"alsa",
+	    "platform": "linux"
       ]
     },
     "dbus": {
