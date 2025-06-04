@@ -28,7 +28,8 @@
       "features": [
         "alsa",
 		"x11"
-      ]
+      ],
+      "platform": "!windows"
 	},
     {
       "name": "implot"
