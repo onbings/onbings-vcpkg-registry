@@ -55,5 +55,6 @@
       "description": "Build with X11 support",
       "supports": "!windows"
     }
-  }
+  },
+  "port-version": 0
 }
