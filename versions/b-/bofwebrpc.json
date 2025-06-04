@@ -46,6 +46,11 @@
       "port-version": 0
     },
     {
+      "version": "2.4.2.4",
+      "git-tree": "54a5ebdb85d312a07680a042c450aa95c1630af3",
+      "port-version": 0
+    },
+    {
       "git-tree": "de675345063deef99ac9f2e96e0f602e297a0bdf",
       "version": "2.3.0.1",
       "port-version": 0

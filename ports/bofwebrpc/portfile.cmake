@@ -9,8 +9,8 @@
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO onbings/bofwebrpc
-  REF 5575ec69eba9e6e9d02354552ebb21dc06254cab
-  SHA512 0
+  REF 38023ac7ec8b824092fd1ca6238dc372ddea79f6
+  SHA512 d6cb43f517b1db4dd25581125dc81e6d765a2919650fdc2f75d0bebefd1e0d689d13bd7fe98c08c4ae60f5fd1b72754bae3c09eef2f0f64f93c78e72b7a2501f
   HEAD_REF main
 )
 
