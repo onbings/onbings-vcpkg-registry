@@ -9,7 +9,7 @@ vcpkg_from_github(
         alsa-dep-fix.patch
         cxx-linkage-pkgconfig.diff
 )
- message(STATUS "===========>PORT " ${PORT})
+ #message(STATUS "===========>PORT " ${PORT})
 
 string(COMPARE EQUAL "${VCPKG_LIBRARY_LINKAGE}" "static" SDL_STATIC)
 string(COMPARE EQUAL "${VCPKG_LIBRARY_LINKAGE}" "dynamic" SDL_SHARED)
@@ -89,22 +89,8 @@ if(VCPKG_TARGET_IS_WINDOWS AND NOT VCPKG_TARGET_IS_UWP AND NOT VCPKG_TARGET_IS_M
     endif()
 
     file(GLOB SHARE_FILES "${CURRENT_PACKAGES_DIR}/share/${PORT}/*.cmake")
-    message(STATUS "DEBUG: SHARE_FILES" ${SHARE_FILES}) # Debug 1: List found files
-
     foreach(SHARE_FILE ${SHARE_FILES})
-        message(STATUS "DEBUG: Processing share file: ${SHARE_FILE}") # Debug 2: Which file is being processed
-
-        # Read content before replacement
-        file(READ "${SHARE_FILE}" FILE_CONTENT_BEFORE)
-        message(STATUS "DEBUG: Content of ${SHARE_FILE} BEFORE replace_string:\n${FILE_CONTENT_BEFORE}") # Debug 3: Content before
-	
-	
         vcpkg_replace_string("${SHARE_FILE}" "lib/SDL2main" "lib/manual-link/SDL2main" IGNORE_UNCHANGED)
-		
-        # Read content after replacement
-        file(READ "${SHARE_FILE}" FILE_CONTENT_AFTER)
-        message(STATUS "DEBUG: Content of ${SHARE_FILE} AFTER replace_string:\n${FILE_CONTENT_AFTER}") # Debug 4: Content after
-		
     endforeach()
 endif()
 
