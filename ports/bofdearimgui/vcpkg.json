@@ -1,6 +1,6 @@
 {
   "name": "bofdearimgui",
-  "version": "2.2.1.10",
+  "version": "2.2.1.11",
   "description": "The OnBings DearImGui c++ wrapper library",
   "dependencies": [
     "bofstd",
@@ -30,5 +30,6 @@
       ],
       "platform": "!windows"
     }
-  ]
+  ],
+  "port-version": 0
 }
