@@ -5,8 +5,8 @@ import os.path
 import re
 import subprocess
 import sys
-from distutils.version import LooseVersion
-
+#from distutils.version import LooseVersion
+from packaging.version import Version as LooseVersion # Use packaging.version
 
 VERSION_BASELINE_PATH="versions/baseline.json"
 PORTS_DIR_PATH="ports"
