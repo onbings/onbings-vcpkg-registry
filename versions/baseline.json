@@ -9,8 +9,8 @@
       "port-version": 0
     },
     "bofstd": {
-      "baseline": "6.1.2.15",
-      "port-version": 1
+      "baseline": "6.1.2.16",
+      "port-version": 0
     },
     "bofwebrpc": {
       "baseline": "2.4.2.4",
