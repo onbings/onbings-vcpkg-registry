@@ -13,7 +13,7 @@
       "port-version": 0
     },
     "bofwebrpc": {
-      "baseline": "2.4.2.7",
+      "baseline": "2.4.2.8",
       "port-version": 0
     },
     "linenoise-ng": {
