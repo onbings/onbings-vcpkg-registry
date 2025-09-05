@@ -9,7 +9,7 @@
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO onbings/bofwebrpc
-  REF 2d942f106edd8018d78e9369d50229f986917e0a
+  REF a367e4c44202c16d99b4e1514cea6074dca22478
   SHA512 ef3bc9ad86c613dc4c4b30db77e1d5aff3e3829cbf364c5f8cd665e0c5c4b9ba93044eee6f04b6c40d76f12b69e4c90ec1a0bed3db8857e45d0c3bbdd810cfa4
   HEAD_REF main
 )
