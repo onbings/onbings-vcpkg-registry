@@ -1,6 +1,6 @@
 {
   "name": "bofwebrpc",
-  "version": "2.4.2.10",
+  "version": "2.4.2.11",
   "description": "The onbings bofwebrpc component",
   "dependencies": [
     "bofstd",
@@ -34,5 +34,5 @@
       "platform": "!windows"
     }
   ],
-  "port-version": 1
+  "port-version": 0
 }

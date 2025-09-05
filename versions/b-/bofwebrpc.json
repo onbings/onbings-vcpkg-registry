@@ -101,6 +101,11 @@
       "port-version": 0
     },
     {
+      "version": "2.4.2.11",
+      "git-tree": "a629727721b9d429af90c51723bc2befd1b69cae",
+      "port-version": 0
+    },
+    {
       "git-tree": "de675345063deef99ac9f2e96e0f602e297a0bdf",
       "version": "2.3.0.1",
       "port-version": 0
